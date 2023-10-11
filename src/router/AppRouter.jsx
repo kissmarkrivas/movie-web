@@ -11,7 +11,7 @@ export const AppRouter = () => {
       <Route path='movies' element ={<OnePiceMoviePages/>}></Route>
       <Route path='characters/:mal_id' element ={<CharactersPages/>}></Route>
       <Route path='person/:mal_id' element ={<PersonPages/>}></Route>
-      <Route path='/' element ={<Navigate to="/movies"/>}></Route>
+      <Route path='/' element ={<Navigate to="movies"/>}></Route>
     </Routes>
     </>
   )
