@@ -8,10 +8,10 @@ export const AppRouter = () => {
   return (
     <>
     <Routes>
-      <Route path='movies' element ={<OnePiceMoviePages/>}></Route>
-      <Route path='characters/:mal_id' element ={<CharactersPages/>}></Route>
-      <Route path='person/:mal_id' element ={<PersonPages/>}></Route>
-      <Route path='/' element ={<Navigate to="/movies"/>}></Route>
+      <Route path='movies' element ={<OnePiceMoviePages/>}/>
+      <Route path='characters/:mal_id' element ={<CharactersPages/>} />
+      <Route path='person/:mal_id' element ={<PersonPages/>} />
+      <Route path='/' element ={<Navigate to="/movies"/>} />
     </Routes>
     </>
   )
